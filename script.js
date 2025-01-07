@@ -8,8 +8,13 @@ async function loadProductList() {
     try {
         // 从 JSON 文件加载数据
         const response = await fetch('./sanyou.json');
+        console.log(2222);
+         // 检查请求是否成功
+        if (!response.ok) {
+            throw new Error(`HTTP 错误！状态码: ${response.status}`);
+        }
         const data = await response.json();
-
+console.log(3333);
 console.log(data);
         // 动态生成商品列表
         data.forEach(product => {
