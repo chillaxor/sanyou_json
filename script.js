@@ -65,7 +65,7 @@ async function loadProductDetail() {
 }
 
 // 根据当前页面决定加载列表还是详情
-if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/') {
+if (window.location.pathname.endsWith('home.html') || window.location.pathname === '/') {
     loadProductList();
 } else if (window.location.pathname.endsWith('product.html')) {
     loadProductDetail();
