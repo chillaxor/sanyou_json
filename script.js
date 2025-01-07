@@ -8,28 +8,31 @@ async function loadProductList() {
     try {
         // 从 JSON 文件加载数据
         const response = await fetch('./sanyou.json');
-        console.log(2222);
-         // 检查请求是否成功
+        
+        // 检查请求是否成功
         if (!response.ok) {
             throw new Error(`HTTP 错误！状态码: ${response.status}`);
         }
-        const data = await response.json();
 
-        // 确保 data.products 是一个数组
-        if (Array.isArray(data.products)) {
-            data.products.forEach(product => {
+        const data = await response.json();
+        console.log(data); // 打印数据
+
+        // 确保 data 是一个数组
+        if (Array.isArray(data)) {
+            data.forEach(product => {
                 const li = document.createElement('li');
                 li.className = 'product-item';
                 li.innerHTML = `
                     <a href="product.html?id=${product.id}">
-                        <img src="${product.img}" alt="${product.name}" />
-                        <p>${product.name} - ￥${product.price}</p>
+                        <img src="${product.imgList[0]}" alt="${product.name}" />
+                        <p>${product.name}</p>
+                        <p>￥${product.price}</p>
                     </a>
                 `;
                 productList.appendChild(li);
             });
         } else {
-            console.error('数据格式错误：data.products 不是数组');
+            console.error('数据格式错误：data 不是数组');
         }
     } catch (error) {
         console.error('加载商品列表失败:', error);
@@ -54,9 +57,28 @@ async function loadProductDetail() {
             if (product) {
                 // 显示商品详情
                 document.getElementById('product-name').textContent = product.name;
-                document.getElementById('product-image').src = product.image;
                 document.getElementById('product-price').textContent = `价格：￥${product.price}`;
-                document.getElementById('product-description').textContent = `描述：${product.description}`;
+                document.getElementById('product-color').textContent = `颜色：${product.color}`;
+                document.getElementById('product-size').textContent = `尺码：${product.size}`;
+                document.getElementById('product-desc').textContent = `描述：${product.desc}`;
+
+                // 显示商品图片
+                const productImages = document.getElementById('product-images');
+                product.imgList.forEach(img => {
+                    const imgElement = document.createElement('img');
+                    imgElement.src = img;
+                    imgElement.alt = product.name;
+                    productImages.appendChild(imgElement);
+                });
+
+                // 显示商品详情图片
+                const productDetailImages = document.getElementById('product-detail-images');
+                product.detailImg.forEach(img => {
+                    const imgElement = document.createElement('img');
+                    imgElement.src = img;
+                    imgElement.alt = product.name;
+                    productDetailImages.appendChild(imgElement);
+                });
             } else {
                 productDetail.innerHTML = '<p>商品未找到</p>';
             }
@@ -68,7 +90,7 @@ async function loadProductDetail() {
     }
 }
 
-// 根据当前页面决定加载列表还是详情
+// 页面加载完成后调用
 if (window.location.pathname.endsWith('home.html') || window.location.pathname === '/') {
     loadProductList();
 } else if (window.location.pathname.endsWith('product.html')) {
