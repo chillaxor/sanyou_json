@@ -14,19 +14,23 @@ async function loadProductList() {
             throw new Error(`HTTP 错误！状态码: ${response.status}`);
         }
         const data = await response.json();
-console.log(3333);
-console.log(data);
-        // 动态生成商品列表
-        data.forEach(product => {
-            const li = document.createElement('li');
-            li.className = 'product-item';
-            li.innerHTML = `
-                <a href="product.html?id=${product.id}">
-                    ${product.name} - ￥${product.price}
-                </a>
-            `;
-            productList.appendChild(li);
-        });
+
+        // 确保 data.products 是一个数组
+        if (Array.isArray(data.products)) {
+            data.products.forEach(product => {
+                const li = document.createElement('li');
+                li.className = 'product-item';
+                li.innerHTML = `
+                    <a href="product.html?id=${product.id}">
+                        <img src="${product.img}" alt="${product.name}" />
+                        <p>${product.name} - ￥${product.price}</p>
+                    </a>
+                `;
+                productList.appendChild(li);
+            });
+        } else {
+            console.error('数据格式错误：data.products 不是数组');
+        }
     } catch (error) {
         console.error('加载商品列表失败:', error);
     }
