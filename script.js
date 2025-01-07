@@ -9,7 +9,7 @@ async function loadProductList() {
         // 从 JSON 文件加载数据
         const response = await fetch('https://chillaxor.github.io/sanyou_json/sanyou.json');
         const data = await response.json();
-
+console.log(data);
         // 动态生成商品列表
         data.forEach(product => {
             const li = document.createElement('li');
