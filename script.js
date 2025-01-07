@@ -18,16 +18,13 @@ async function loadProductList() {
         console.log(data); // 打印数据
 
         if (Array.isArray(data.products)) {
-            data.products.forEach(product => {
-                // 检查 imgList 是否存在
-                const imgUrl = product.imgList && product.imgList[0] ? product.imgList[0] : 'https://via.placeholder.com/150'; // 默认图片
+           data.products.forEach(product => {
                 const li = document.createElement('li');
                 li.className = 'product-item';
                 li.innerHTML = `
                     <a href="product.html?id=${product.id}">
-                        <img src="${imgUrl}" alt="${product.name}" />
-                        <p>${product.name}</p>
-                        <p>￥${product.price}</p>
+                        <img src="${product.img}" alt="${product.name}" />
+                        <p>${product.name} - ￥${product.price}</p>
                     </a>
                 `;
                 productList.appendChild(li);
