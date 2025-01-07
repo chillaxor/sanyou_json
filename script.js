@@ -17,9 +17,9 @@ async function loadProductList() {
         const data = await response.json();
         console.log(data); // 打印数据
 
-        // 确保 data 是一个数组
-        if (Array.isArray(data)) {
-            data.forEach(product => {
+         // 确保 data.products 是一个数组
+        if (Array.isArray(data.products)) {
+            data.products.forEach(product => {
                 const li = document.createElement('li');
                 li.className = 'product-item';
                 li.innerHTML = `
@@ -32,7 +32,7 @@ async function loadProductList() {
                 productList.appendChild(li);
             });
         } else {
-            console.error('数据格式错误：data 不是数组');
+            console.error('数据格式错误：data.products 不是数组');
         }
     } catch (error) {
         console.error('加载商品列表失败:', error);
