@@ -7,8 +7,9 @@ const productDetail = document.getElementById('product-detail');
 async function loadProductList() {
     try {
         // 从 JSON 文件加载数据
-        const response = await fetch('https://chillaxor.github.io/sanyou_json/sanyou.json');
+        const response = await fetch('./sanyou.json');
         const data = await response.json();
+
 console.log(data);
         // 动态生成商品列表
         data.forEach(product => {
@@ -35,7 +36,7 @@ async function loadProductDetail() {
 
         if (productId) {
             // 从 JSON 文件加载数据
-            const response = await fetch('https://chillaxor.github.io/sanyou_json/sanyou_detail.json');
+            const response = await fetch('./sanyou_detail.json');
             const data = await response.json();
 
             // 查找对应的商品
