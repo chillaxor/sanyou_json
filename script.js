@@ -24,7 +24,8 @@ async function loadProductList() {
                 li.innerHTML = `
                     <a href="product.html?id=${product.id}">
                         <img src="${product.img}" alt="${product.name}" />
-                        <p>${product.name} - ￥${product.price}</p>
+                        <p>${product.name}</p>
+                        <p>￥${product.price}</p>
                     </a>
                 `;
                 productList.appendChild(li);
