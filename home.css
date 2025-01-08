@@ -74,7 +74,12 @@ h1 {
     gap: 10px;
     margin: 20px 0;
 }
-
+.product-detail p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    text-align: left; /* 文字左对齐 */
+}
 .product-images img, .product-detail-images img {
     max-width: 100%;
     height: auto;
