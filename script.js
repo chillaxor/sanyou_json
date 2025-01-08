@@ -24,8 +24,8 @@ async function loadProductList() {
                 li.innerHTML = `
                     <a href="product.html?id=${product.id}">
                         <img src="${product.img}" alt="${product.name}" />
-                        <p>${product.name}</p>
-                        <p>￥${product.price}</p>
+                        <p>商品名：${product.name}</p>
+                        <p>价格：￥${product.price}</p>
                     </a>
                 `;
                 productList.appendChild(li);
@@ -55,7 +55,7 @@ async function loadProductDetail() {
 
             if (product) {
                 // 显示商品详情
-                document.getElementById('product-name').textContent = product.name;
+                document.getElementById('product-name').textContent = 商品名：product.name;
                 document.getElementById('product-price').textContent = `价格：￥${product.price}`;
                 document.getElementById('product-color').textContent = `颜色：${product.color}`;
                 document.getElementById('product-size').textContent = `尺码：${product.size}`;
