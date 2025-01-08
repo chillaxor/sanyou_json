@@ -35,7 +35,11 @@ h1 {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+/* 价格标红 */
+.product-item .price {
+    color: red;
+    font-weight: bold;
+}
 .product-item img {
     width: 150px;
     height: 150px;
@@ -79,6 +83,11 @@ h1 {
     font-size: 16px;
     color: #333;
     text-align: left; /* 文字左对齐 */
+}
+/* 价格标红 */
+.product-detail .price {
+    color: red;
+    font-weight: bold;
 }
 .product-images img, .product-detail-images img {
     max-width: 100%;
