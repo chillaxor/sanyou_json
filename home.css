@@ -52,6 +52,7 @@ h1 {
     margin: 5px 0;
     font-size: 14px;
     color: #333;
+    text-align: left;
 }
 
 .product-item a {
