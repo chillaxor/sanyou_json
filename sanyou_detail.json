@@ -15,7 +15,7 @@
 	"size": "M/L/XL/2XL",
 	"desc": "三友无痕内衣 026#款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片2.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片2.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片2.png", "https://chillaxor.github.io/sanyou_json/026_1.jpg", "https://chillaxor.github.io/sanyou_json/026_2.jpg", "https://chillaxor.github.io/sanyou_json/026_3.jpg", "https://chillaxor.github.io/sanyou_json/026_4.jpg", "https://chillaxor.github.io/sanyou_json/026_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 3,
 	"name": "三友无痕内衣 042#款",
@@ -23,8 +23,8 @@
 	"color": "白色/黑色/绿色/卡其",
 	"size": "S/M/L/XL/2XL",
 	"desc": "三友无痕内衣 042#款 单件",
-	"imgList": ["https://chillaxor.github.io/sanyou_json/图片3.jpg"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片3.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"imgList": ["https://chillaxor.github.io/sanyou_json/图片3.png"],
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片3.png", "https://chillaxor.github.io/sanyou_json/042_1.jpg", "https://chillaxor.github.io/sanyou_json/042_2.jpg", "https://chillaxor.github.io/sanyou_json/042_4.jpg", "https://chillaxor.github.io/sanyou_json/042_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 4,
 	"name": "三友无痕内衣 029#款",
@@ -33,7 +33,7 @@
 	"size": "S/M/L/XL",
 	"desc": "三友无痕内衣 029#款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片4.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片4.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片4.png", "https://chillaxor.github.io/sanyou_json/029_1.jpg", "https://chillaxor.github.io/sanyou_json/029_2.jpg", "https://chillaxor.github.io/sanyou_json/029_4.jpg", "https://chillaxor.github.io/sanyou_json/029_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 5,
 	"name": "三友无痕内衣 033#款",
@@ -42,7 +42,7 @@
 	"size": "M/L/XL/2XL/3XL",
 	"desc": "三友无痕内衣 033#款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片5.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片5.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片5.png", "https://chillaxor.github.io/sanyou_json/033_1.jpg", "https://chillaxor.github.io/sanyou_json/033_2.jpg", "https://chillaxor.github.io/sanyou_json/033_3.jpg", "https://chillaxor.github.io/sanyou_json/033_4.jpg", "https://chillaxor.github.io/sanyou_json/033_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 6,
 	"name": "三友无痕内衣 035#款",
@@ -51,7 +51,7 @@
 	"size": "M/L/XL/2XL/3XL/4XL",
 	"desc": "三友无痕内衣 035#款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片6.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片6.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片6.png", "https://chillaxor.github.io/sanyou_json/035_1.jpg", "https://chillaxor.github.io/sanyou_json/035_2.jpg", "https://chillaxor.github.io/sanyou_json/035_3.jpg", "https://chillaxor.github.io/sanyou_json/035_4.jpg", "https://chillaxor.github.io/sanyou_json/035_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 7,
 	"name": "三友无痕内衣 S83#款",
@@ -69,7 +69,7 @@
 	"size": "S/M/L/XL",
 	"desc": "三友无痕内衣 S84#款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片8.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片8.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片8.png", "https://chillaxor.github.io/sanyou_json/s84_1.jpg", "https://chillaxor.github.io/sanyou_json/s84_2.jpg", "https://chillaxor.github.io/sanyou_json/s84_3.jpg", "https://chillaxor.github.io/sanyou_json/s84_4.jpg", "https://chillaxor.github.io/sanyou_json/s84_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 9,
 	"name": "三友无痕内衣 020#款",
@@ -78,7 +78,7 @@
 	"size": "S/M/L/XL/2XL",
 	"desc": "三友无痕内衣 020#款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片9.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片9.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片9.png", "https://chillaxor.github.io/sanyou_json/020_1.jpg", "https://chillaxor.github.io/sanyou_json/020_2.jpg", "https://chillaxor.github.io/sanyou_json/020_3.jpg", "https://chillaxor.github.io/sanyou_json/020_4.jpg", "https://chillaxor.github.io/sanyou_json/020_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 10,
 	"name": "三友无痕内衣 S96款",
@@ -87,7 +87,7 @@
 	"size": "M/L/XL/2XL",
 	"desc": "三友无痕内衣 S96款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片10.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片10.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片10.png", "https://chillaxor.github.io/sanyou_json/s96_1.jpg", "https://chillaxor.github.io/sanyou_json/s96_2.jpg", "https://chillaxor.github.io/sanyou_json/s96_3.jpg", "https://chillaxor.github.io/sanyou_json/s96_4.jpg", "https://chillaxor.github.io/sanyou_json/s96_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 11,
 	"name": "三友无痕内衣 S94款",
@@ -114,7 +114,7 @@
 	"size": "S/M/L/XL",
 	"desc": "三友无痕内衣 630款 单件",
 	"imgList": ["https://chillaxor.github.io/sanyou_json/图片13.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片13.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片13.png", "https://chillaxor.github.io/sanyou_json/603_1.jpg", "https://chillaxor.github.io/sanyou_json/603_2.jpg", "https://chillaxor.github.io/sanyou_json/603_3.jpg", "https://chillaxor.github.io/sanyou_json/603_4.jpg", "https://chillaxor.github.io/sanyou_json/603_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 14,
 	"name": "三友无痕内衣 668款",
@@ -131,8 +131,8 @@
 	"color": "黑色/肤色/绿色/粉色",
 	"size": "M/L/XL/2XL",
 	"desc": "三友无痕内衣 698款 单件",
-	"imgList": ["https://chillaxor.github.io/sanyou_json/图片15.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片15.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"imgList": ["https://chillaxor.github.io/sanyou_json/698_1.jpg"],
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/698_1.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 16,
 	"name": "三友无痕内衣 2815款",
@@ -149,8 +149,8 @@
 	"color": "白色/黑色/卡其",
 	"size": "F/XL",
 	"desc": "三友无痕内衣 718款 单件",
-	"imgList": ["https://chillaxor.github.io/sanyou_json/图片17.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片17.png", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"imgList": ["https://chillaxor.github.io/sanyou_json/718.jpg"],
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/718.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 18,
 	"name": "三友无痕内衣 078款",
