@@ -23,8 +23,8 @@
 	"color": "白色/黑色/绿色/卡其",
 	"size": "S/M/L/XL/2XL",
 	"desc": "三友无痕内衣 042#款 单件",
-	"imgList": ["https://chillaxor.github.io/sanyou_json/图片3.png"],
-	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片3.png", "https://chillaxor.github.io/sanyou_json/042_1.jpg", "https://chillaxor.github.io/sanyou_json/042_2.jpg", "https://chillaxor.github.io/sanyou_json/042_4.jpg", "https://chillaxor.github.io/sanyou_json/042_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
+	"imgList": ["https://chillaxor.github.io/sanyou_json/图片3.jpg"],
+	"detailImg": ["https://chillaxor.github.io/sanyou_json/图片3.jpg", "https://chillaxor.github.io/sanyou_json/042_1.jpg", "https://chillaxor.github.io/sanyou_json/042_2.jpg", "https://chillaxor.github.io/sanyou_json/042_4.jpg", "https://chillaxor.github.io/sanyou_json/042_5.jpg", "https://chillaxor.github.io/sanyou_json/wechat_1.jpg"]
 }, {
 	"id": 4,
 	"name": "三友无痕内衣 029#款",
